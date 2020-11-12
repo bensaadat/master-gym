@@ -1,0 +1,45 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['zones'] = 'Zones';
+$lang['all_zones'] = 'All Zones';
+$lang['all_cities'] = 'All Cities';
+$lang['zone_code'] = 'Zone code';
+$lang['zone_name'] = 'Zone name';
+$lang['delay_hours'] = 'Delay hours';
+$lang['customer_cost'] = 'Customer cost';
+$lang['edit_zone'] = 'Edit zone';
+$lang['last_mile_remuneration'] = 'Last mile remuneration';
+$lang['shipplo_vehicle'] = 'Shipplo vehicle';
+$lang['courier_cost'] = 'Courier cost';
+$lang['weight_in_kg'] = 'Weight in kg';
+$lang['confirm'] = 'Confirm';
+$lang['delete_zone_confirmation'] = 'Are you sure you want to delete this zone? This will disassociate all cities from it';
+$lang['create_zone'] = 'Create zone';
+$lang['add_new_zone'] = 'Add a new zone';
+$lang['general'] = 'General';
+$lang['city_name_input_hint'] = 'Updating city name requires updating all customer addresses that use it';
+
+$lang['general'] = 'General';
+$lang['cities'] = 'Cities';
+$lang['all_cities'] = 'All Cities';
+$lang['locale'] = 'Locale';
+$lang['city_code'] = 'City code';
+$lang['city_name'] = 'City name';
+$lang['edit_city'] = 'Edit city';
+$lang['create_city'] = 'Create city';
+$lang['add_new_city'] = 'Add a new city';
+$lang['delete_city_confirmation'] = 'Are you sure you want to delete this city?';
+$lang['generate_json'] = 'Generate JSON';
+$lang['update_in_magento'] = 'Update in Magento';
+$lang['english'] = 'English';
+$lang['french'] = 'French';
+$lang['arabic'] = 'Arabic';
+$lang['include_conditions'] = 'Include conditions';
+$lang['city_does_not_exist_in_french_locale'] = 'This city does not exist in French locale';
+
+$lang['Free delivery'] = 'Free delivery';
+$lang['Delivery in X hours'] = 'Delivery in %sh';
+$lang['Delivery in X days'] = 'Delivery in %s days';
+$lang['Delivery from X hours to X hours'] = 'Delivery from %sh to %sh';
+$lang['Delivery from X hours to X days'] = 'Delivery from %sh to %s days';
+$lang['Delivery from X days to X days'] = 'Delivery from %s days to %s days';

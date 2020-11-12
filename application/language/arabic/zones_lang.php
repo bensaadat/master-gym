@@ -1,0 +1,45 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['zones'] = 'المناطق';
+$lang['all_zones'] = 'جميع المناطق';
+$lang['all_cities'] = 'جميع المدن';
+$lang['zone_code'] = 'كود المنطقة';
+$lang['zone_name'] = 'اسم المنطقة';
+$lang['delay_hours'] = 'ساعات التأخير';
+$lang['customer_cost'] = 'تكلفة العميل';
+$lang['edit_zone'] = 'تحديث المنطقة';
+$lang['last_mile_remuneration'] = 'مكافأة الميل الأخير';
+$lang['shipplo_vehicle'] = 'مركبة شيبلو';
+$lang['courier_cost'] = 'تكلفه البريد';
+$lang['weight_in_kg'] = 'الوزن بالكيلوغرام';
+$lang['confirm'] = 'تأكيد';
+$lang['delete_zone_confirmation'] = 'هل أنت متأكد أنك تريد حذف هذه المنطقة؟ سيؤدي ذلك إلى فصل جميع المدن عنها';
+$lang['create_zone'] = 'إنشاء منطقة';
+$lang['add_new_zone'] = 'أضف منطقة جديدة';
+$lang['general'] = 'عام';
+$lang['city_name_input_hint'] = 'يتطلب تحديث اسم المدينة تحديث كافة عناوين العملاء التي تستخدمه';
+
+$lang['general'] = 'عام';
+$lang['cities'] = 'المدن';
+$lang['all_cities'] = 'جميع المدن';
+$lang['locale'] = 'اللغة';
+$lang['city_code'] = 'رمز المدينة';
+$lang['city_name'] = 'اسم المدينة';
+$lang['edit_city'] = 'تحديث المدينة';
+$lang['create_city'] = 'أضف مدينة';
+$lang['add_new_city'] = 'أضف مدينة جديدة';
+$lang['delete_city_confirmation'] = 'هل أنت متأكد أنك تريد حذف هذه المدينة؟';
+$lang['generate_json'] = 'توليد JSON';
+$lang['update_in_magento'] = 'التحديث في Magento';
+$lang['english'] = 'الإنجليزية';
+$lang['french'] = 'فرنسية';
+$lang['arabic'] = 'العربية';
+$lang['include_conditions'] = 'قم بتضمين الشروط';
+$lang['city_does_not_exist_in_french_locale'] = 'هذه المدينة غير موجودة باللغة الفرنسية';
+
+$lang['Free delivery'] = 'التوصيل مجاني';
+$lang['Delivery in X hours'] = 'التوصيل خلال %s ساعة';
+$lang['Delivery in X days'] = 'التوصيل خلال %s أيام';
+$lang['Delivery from X hours to X hours'] = 'التوصيل من %s ساعة إلى %s ساعة';
+$lang['Delivery from X hours to X days'] = 'التوصيل من %s ساعة إلى %s أيام';
+$lang['Delivery from X days to X days'] = 'التوصيل من %s أيام إلى %s أيام';

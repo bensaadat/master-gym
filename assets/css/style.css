@@ -1,0 +1,63 @@
+.ordo{
+	/*background-image: url("../images/template/ordo.jpg"); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-style: solid;
+}
+.ordo-heder-info{
+
+	padding-top: 13px;
+}
+.ordo-date{
+	padding: 16px;
+	text-align: right;
+}
+.ordo-name{
+	padding: 16px;
+	text-align: center;
+}
+.ordo-name h1{
+	  font-size: 200%;
+	  color: #0300da;
+	  text-decoration:underline;
+}
+.ordo-name hr{
+	  font-size: 200%;
+	  color: red;
+	  text-decoration:underline;
+}
+.ordo-validbutton{
+	padding: 53px;
+	text-align: right;
+}
+
+.user {
+  display: inline-block;
+  width: 52px;
+  height: 47px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.md-tabs .nav-item {
+    width: calc(100% / 8);
+	text-align: center;
+	padding-top : 15px;
+}
+
+.products-edit-order-table tr th{
+	border-bottom: 1px solid grey;
+}
+
+.products-edit-order-table tr{
+	border-bottom: 1px solid lightgrey;
+}
+
+.shipment-invoice td {
+	border: 1px solid lightgrey;
+}

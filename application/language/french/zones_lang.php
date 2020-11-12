@@ -1,0 +1,44 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['zones'] = 'Zones';
+$lang['all_zones'] = 'Toutes les zones';
+$lang['all_cities'] = 'Toutes les villes';
+$lang['zone_code'] = 'Code de zone';
+$lang['zone_name'] = 'Nom de zone';
+$lang['delay_hours'] = 'Heures de retard';
+$lang['customer_cost'] = 'Coût client';
+$lang['edit_zone'] = 'Modifier la zone';
+$lang['last_mile_remuneration'] = 'Rémunération du dernier kilomètre';
+$lang['shipplo_vehicle'] = 'Véhicule Shipplo';
+$lang['courier_cost'] = 'Frais de messagerie';
+$lang['weight_in_kg'] = 'Poids en kg';
+$lang['confirm'] = 'Confirmer';
+$lang['delete_zone_confirmation'] = 'Êtes-vous sûr de vouloir supprimer cette zone? Cela en dissociera toutes les villes';
+$lang['create_zone'] = 'Créer une zone';
+$lang['add_new_zone'] = 'Ajouter une nouvelle zone';
+$lang['city_name_input_hint'] = "La mise à jour du nom de la ville nécessite la mise à jour de toutes les adresses des clients qui l'utilisent";
+
+$lang['general'] = 'Général';
+$lang['cities'] = 'Villes';
+$lang['all_cities'] = 'Toutes les villes';
+$lang['locale'] = 'Langue';
+$lang['city_code'] = 'Code de la ville';
+$lang['city_name'] = 'Nom de ville';
+$lang['edit_city'] = 'Modifier la ville';
+$lang['create_city'] = 'Créer une ville';
+$lang['add_new_city'] = 'Ajouter une nouvelle ville';
+$lang['delete_city_confirmation'] = 'Voulez-vous vraiment supprimer cette ville?';
+$lang['generate_json'] = 'Générer JSON';
+$lang['update_in_magento'] = 'Mettre à jour dans Magento';
+$lang['english'] = 'Anglais';
+$lang['french'] = 'Français';
+$lang['arabic'] = 'Arabe';
+$lang['include_conditions'] = 'Inclure les conditions';
+$lang['city_does_not_exist_in_french_locale'] = "Cette ville n'existe pas en langue française";
+
+$lang['Free delivery'] = 'Livraison offerte';
+$lang['Delivery in X hours'] = 'Livraison en %sh';
+$lang['Delivery in X days'] = 'Livraison en %s jours';
+$lang['Delivery from X hours to X hours'] = 'Livraison de %sh à %sh';
+$lang['Delivery from X hours to X days'] = 'Livraison de %sh à %s jours';
+$lang['Delivery from X days to X days'] = 'Livraison de %s jours à %s jours';
