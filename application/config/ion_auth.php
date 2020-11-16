@@ -93,7 +93,6 @@ $config['customer_service_group']     = 'customer_service';
 $config['marketing_group']            = 'marketing'; 
 $config['it_group']                   = 'it';
 $config['accounting_group']           = 'accounting';
-$config['warehouse_group']            = 'warehouse';                // Default administrators group, use name
 
 $config['identity']                   = 'email';             // You can use any unique column in your table as identity column. The values in this column, alongside password, will be used for login purposes
 $config['min_password_length']        = 8;                   // Minimum Required Length of Password

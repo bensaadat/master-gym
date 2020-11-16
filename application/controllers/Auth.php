@@ -22,47 +22,11 @@ class Auth extends CI_Controller {
 		redirect('auth/login', 'refresh');
 			
 		}
-		if ($this->ion_auth->is_livreur())
-		{
-			redirect('Livraison/rabat', 'refresh');
-			
-		}
-
-		if ($this->ion_auth->is_packer())
-		{
-
-		
-		redirect('Picking/En_Preparation', 'refresh');
-			
-		}
-
-		if ($this->ion_auth->is_Livreur_goprot())
-		{
-		redirect('Livraison/rabat', 'refresh');
-			
-		}
-
-
-		if ($this->ion_auth->is_Accountant())
-		{
-	
-		redirect('Ventes/all_facture', 'refresh');
-			
-		}
-		
-				 elseif($this->ion_auth->is_admin()) {
-		   
+		elseif($this->ion_auth->is_super_admin()) {
+			var_dump($this->ion_auth->get_users_groups()->row()->name);
+			exit;
 			redirect('dashboard', 'refresh');
-		 }
-		 
-	 	elseif ($this->ion_auth->is_manager()) {
-		   
-			redirect('dashboard', 'refresh');
-		 }
-		 
-		 else 
-		 {
-		 	
+		}else {	
 		 redirect('user', 'refresh');
 		 }
 }
